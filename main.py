@@ -480,7 +480,7 @@ async def setup(app):
 
 
 def main():
-    token = os.environ.get('BOT_TOKEN', '').strip()
+    token = "9083299031:AAHdYrltN0wWXs8Eo0S4uDAYwmaKcpPapws"
     if not token:
         raise SystemExit('BOT_TOKEN eksik. Hosting ortam değişkenlerine BotFather tokenini ekle.')
     load()  # Invalid database stops startup instead of silently losing records.
